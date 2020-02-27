@@ -48,6 +48,7 @@ namespace AccountingSoftware
 
             Console.Write("Tax deducted at source from bank interest received: ");
             double.TryParse(Console.ReadLine(), out double intTax);
+            //is it better to use .TryParse() or Convert.ToInt()?
 
 
             //calculate total income
